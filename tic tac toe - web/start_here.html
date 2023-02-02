@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTT - Welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .image {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .btnp{
+            position: absolute;
+            top: 30%;
+            left: 27%;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .btn{
+            padding: 40px;
+            margin: 20px;
+            font-size: 70px;
+            background-color: black;
+            color: antiquewhite;
+            border-radius: 20px;
+        }
+        .btn:hover{
+            cursor: pointer;
+        }
+
+        @keyframes wb-color {
+            from{
+                color: black;
+            }
+            to{
+                color: white;
+            }
+        }
+        #para{
+            font-size: 40px;
+            color: black;
+            animation: wb-color 3s ease-in-out 2s 20;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <div class="btnp">
+            <a href="game/index.html"><button class="btn">
+                <h4>Welcome Player!!</h4>
+            </button></a>
+            <p id="para">Click the button to enter Tic-Tac-Toe!</p>
+        </div>
+        <img class="image" src="https://source.unsplash.com/1920x1080/?game" alt="error404">
+    </div>
+</body>
+
+</html>

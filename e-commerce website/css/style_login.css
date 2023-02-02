@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('https://source.unsplash.com/random');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 70vh;
+    margin: 14vh 28vw;
+    border-radius: 20px;
+}
+.container_s{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 80vh;
+    margin: 14vh 28vw;
+    border-radius: 20px;
+}
+.name{
+    color: salmon;
+    align-self: center;
+    font-family: cursive;
+    font-size: 70px;
+    font-weight: bolder;
+    margin: 20px;
+}
+label{
+    color: white;
+}
+.details{
+    font-size: 30px;
+    text-align: center;
+    margin: 40px 0px 20px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.details input{
+    width: 300px;
+    height: 36px;
+    font-size: 20px ;
+}
+.teleph_s{
+    position: relative;
+    left: -14px;
+}
+.pwd{
+    position: relative;
+    left: -28px;
+}
+.pwd_t{
+    position: relative;
+    left: 19px;
+}
+.loginbtn input{
+    width: 150px;
+    height: 56px;
+    font-size: 25px ;
+    background-color: skyblue;
+    border-radius: 3px;
+    border: 2px solid palevioletred;
+}
+.otherlogins{
+    border-top: 2px solid white;
+    width: 35vw;
+    align-self:center;
+    margin: 20px;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+}
+.otherlogins div{
+    position: relative;
+    bottom: 15px;
+}
+.otherlogins img{
+    margin: 35px;
+}
+.otherlogins div a img:hover{
+    transform:translateX(5px);
+}

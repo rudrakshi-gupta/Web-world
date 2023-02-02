@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.bt{
+    border-top: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+.br{
+    border-right: 0;
+}
+.bl{
+    border-left: 0;
+}
+
+#scoreboard{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+}
+.sbi{
+    text-align: center;
+}

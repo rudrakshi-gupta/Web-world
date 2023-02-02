@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="listcon">
+        <h1>Your to-do List : </h1>
+        <div class="lines">
+            <div class="lineno" id="1"><hr></div>
+            <div class="lineno" id="2"><hr></div>
+            <div class="lineno" id="3"><hr></div>
+            <div class="lineno" id="4"><hr></div>
+            <div class="lineno" id="5"><hr></div>
+            <div class="lineno" id="6"><hr></div>
+            <div class="lineno" id="7"><hr></div>
+            <div class="lineno" id="8"><hr></div>
+            <div class="lineno" id="9"><hr></div>
+            <div class="lineno" id="10"><hr></div>
+            <!-- <div class="lineno" id="no11">1<hr></div>
+            <div class="lineno" id="no12">1<hr></div> -->
+            <input type="submit" id="ce" value="Click to enter/delete items in to-do list!">
+        </div>
+    </div>
+    <div class="image">
+        <img id="i1" src="images/decor 1.jpg" alt="error404">
+        <img id="i2" src="images/decor 2.jpg" alt="error404">
+        <img id="i3" src="images/decor 3.jpg" alt="error404">
+    </div>
+    <script>
+        ce.addEventListener('mousedown', function () {
+            document.getElementById('ce').style.backgroundColor = "seagreen";
+            window.open("to-dolist-entry.html", "_self")
+        })
+        ce.addEventListener('mouseup', function () {
+            document.getElementById('ce').style.backgroundColor = "steelblue";
+        })
+
+        if (localStorage.getItem('items') != null) {
+            arr_str = localStorage.getItem('items'); 
+            arr = JSON.parse(arr_str);
+        }
+        arr.forEach((element,index) => {
+            i = index+1
+            let td = document.getElementById(i);
+            td.innerHTML = `${i}. ${element}<hr>`;
+        });
+    </script>
+</body>
+
+</html>

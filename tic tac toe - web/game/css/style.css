@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+#box{
+    display: grid;
+    height: 500px;
+    margin: 5vh;
+    grid-template-columns: 170px 170px 170px ;
+    grid-template-rows: 170px 170px 170px;
+    justify-content: center;
+}
+.item{
+    border: 5px solid whitesmoke;
+}
+.X{
+    background: url('image/cross.png') no-repeat center;
+}
+.O{
+    background: url('image/dot.png') no-repeat center/cover;
+}

@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:seashell;
+}
+header{
+    background-color:rosybrown;
+    font-family: 'Roboto', sans-serif;
+    height: 80vh;
+}
+.imagechanger{
+    position: relative;
+    top: 80px;
+}
+.pinksq{
+    background-color: salmon;
+    height: 50vh;
+    width: 20vw;
+    position: absolute;
+    top: 30px;
+}
+.yellowsq{
+    background-color: yellow;
+    height: 40vh;
+    width: 17vw;
+    position: absolute;
+    bottom: 30px;
+    left: 40vw;
+}
+#image1{
+    position: absolute;
+    left: 70px;
+    top:90px;
+}
+#image2{
+    position: absolute;
+    left: 100px;
+    top:450px;
+    border: 8px solid rgb(80, 80, 80);
+    border-radius: 8px;
+}
+nav ul{
+    display: flex;
+    height: 10vh;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    left: -3%;
+    padding: 3px 0;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+    font-size: 23px;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+.start{
+    display: flex;
+}
+#int{
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    width: 40vw;
+    height: 30vh;
+    padding: 30px;
+    position: absolute;
+    left: 53vw;
+    bottom: 28vh;
+}
+#int p{
+    font-size: 20px;
+}
+h1{
+    color: rgb(43, 40, 40);
+    align-self: flex-start;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    font-weight: bolder;
+}
+h1:hover{
+    transform: translate(8px);
+    color: sienna;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    display: flex;
+    padding: 80px;
+    margin: 120px 40px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
+.i1{
+    width: 50vw;
+    height: 50vh;
+    padding-top: 70px;
+}
+.i2{
+    width: 68vw;
+    height: 68vh;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+}
+.i3{
+    width: 50vw;
+    height: 50vh;
+    padding-top: 70px;
+}
+
+h2{
+    background-image: url('/image/home/green.jpg');
+    color: white;
+    margin: 30px 0px;
+    padding: 5px;
+    font-size: 60px;
+    width: 100vw;
+    text-align: center;
+    border: 2px solid black;
+}
+.abtus{
+    padding: 40px;
+    margin: 60px 80px 100px 80px;
+    font-size: 20px;
+    background-color: rgb(192, 192, 217);
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10vh;
+    font-family: 'Roboto', sans-serif;
+}

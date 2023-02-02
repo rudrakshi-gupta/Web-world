@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:wheat;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    display: flex;
+}
+.imglogo{
+    padding: 10px 10px 10px 25px;
+}
+.imglogo img{
+    width: 4vw;
+    border: 2px solid burlywood;
+}
+.imglogo img:hover{
+    transform: translate(-3px);
+    /* box-shadow: slategray; */
+}
+.companyname{
+    color: salmon;
+    align-self: center;
+    font-family: cursive;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.companyname:hover{
+    transform: translate(8px);
+    color: sienna;
+    /* text-shadow:  10px red; */
+}
+.searchbar{
+    display: flex;
+    position: relative;
+    left: 12%;
+}
+.searchbar #search_{
+    width: 40vw;
+    height: 6vh;
+    padding: 14px;
+    align-self: center;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 20vh;
+}
+.searchbar #search_:hover{
+    border-color: teal;
+}
+nav ul{
+    display: flex;
+    height: 10vh;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    left: 13%;
+    padding: 3px 0;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+    font-size: 22px;
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.category{
+    padding: 3vw;
+    margin: 2vw 2vw 0 2vw;
+    border-style: groove;
+    border-color: black;
+    border-radius: 3vw;
+    background-image: url("https://source.unsplash.com/random/1800x200");
+}
+.para{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5vh;
+    width: 400px;
+    border-radius: 3vw;
+    position: absolute;
+    bottom: -94vh;
+    right: 38vw;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+}
